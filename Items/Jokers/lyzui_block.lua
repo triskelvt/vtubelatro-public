@@ -34,7 +34,7 @@ SMODS.Joker {
 
     set_badges = function(self, card, badges)
         badges[#badges + 1] = create_badge('Vtuber: Lyzui', HEX('ff006e'), G.C.white, 1.2)
-        badges[#badges + 1] = create_badge('Image by: nyukururu', HEX('3a86ff'), G.C.white, 1.2)
+        badges[#badges + 1] = create_badge('Image by: Ferys', HEX('3a86ff'), G.C.white, 1.2)
     end,
 
     calculate = function(self, card, context)
