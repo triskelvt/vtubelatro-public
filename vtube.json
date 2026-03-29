@@ -1,0 +1,18 @@
+{
+  "id": "vtube",
+  "name": "VTubelatro",
+  "display": "VTubelatro",
+  "author": [
+    "Triskel"
+  ],
+  "description": "VTubelatro is a Balatro mod that adds new mechanics based on Vtubers.",
+  "prefix": "vtb",
+  "prefixcomment": "",
+  "main_file": "vtube.lua",
+  "priority": 0,
+  "badge_colour": "cf3c4b",
+  "version": "0.0.1",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-1016c)"
+  ]
+}

@@ -1,0 +1,29 @@
+[manifest]
+version = "1.0.0"
+dump_lua = false
+priority = 1
+
+# Remove Foil/Holo/Polychrome info_queue tooltips from the Wheel of Fortune
+[[patches]]
+[patches.pattern]
+target = "functions/common_events.lua"
+pattern = "info_queue[#info_queue+1] = G.P_CENTERS.e_foil"
+position = "at"
+payload = ""
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/common_events.lua"
+pattern = "info_queue[#info_queue+1] = G.P_CENTERS.e_holo"
+position = "at"
+payload = ""
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/common_events.lua"
+pattern = "info_queue[#info_queue+1] = G.P_CENTERS.e_polychrome"
+position = "at"
+payload = ""
+match_indent = true
