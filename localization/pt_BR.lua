@@ -63,7 +63,7 @@ return {
                 }
             },
             j_vtb_lyzui_block = {
-                name = "O Bloco de Lyzui",
+                name = "O bloqueio de Lyzui",
                 text = {
                     "Mãos jogadas sem descartar",
                     "concedem {C:attention}+1 Esboço{}",
@@ -219,7 +219,7 @@ return {
             j_vtb_shogun_shapeshift = {
                 name = "Metamorfose de Shogun",
                 text = {
-                    "No início de cada blind,",
+                    "No início de cada {C:attention}Blind{},",
                     "se transforma em uma {C:attention}Edição aleatória{}",
                     "{C:inactive}(Exceto {C:dark_edition}Negativo{C:inactive})"
                 }
@@ -298,8 +298,8 @@ return {
                 name = "O Saco de Pardo",
                 text = {
                     "Se a mão jogada for um {C:attention}Quinteto{},",
-                    "cria um Curinga",
-                    "{C:dark_edition}Negativo{} {C:legendary}Lendário{} aleatório"
+                    "cria um",
+                    "{C:dark_edition}Negativo{} {C:legendary}Curinga Lendário{} aleatório"
                 }
             },
             j_vtb_sprout_tour = {

@@ -219,7 +219,7 @@ return {
             j_vtb_shogun_shapeshift = {
                 name = "Transformación de Shogun",
                 text = {
-                    "Al inicio de cada ciega,",
+                    "Al inicio de cada {C:attention}Ciega{},",
                     "se transforma en una {C:attention}Edición al azar{}",
                     "{C:inactive}(Excepto {C:dark_edition}Negativa{C:inactive})"
                 }
@@ -297,9 +297,9 @@ return {
             j_vtb_pardoky_bag = {
                 name = "Bolsa de Pardo",
                 text = {
-                    "Si la mano es un {C:attention}Quinteto{},",
+                    "Si la mano jugada es un {C:attention}Quinteto{},",
                     "crea un",
-                    "{C:dark_edition}Negativo{} {C:legendary}Comodín Legendario{}"
+                    "{C:dark_edition}Negativo{} {C:legendary}Comodín Legendario{} al azar"
                 }
             },
             j_vtb_sprout_tour = {
@@ -352,7 +352,7 @@ return {
             j_vtb_spookyushii_card = {
                 name = "Trajes de Spooky",
                 text = {
-                    "Gana {C:mult}+#1#{} Multi si la mano",
+                    "Gana {C:mult}+#1#{} Multi si la mano jugada",
                     "tiene exactamente {C:attention}2{} palos distintos.",
                     "{C:inactive}(Actualmente {C:mult}+#2#{C:inactive} Multi)"
                 },
@@ -550,7 +550,7 @@ return {
                 }
             },
             c_vtb_blank = {
-                name = "Blank",
+                name = "Vacío",
                 text = {
                     "Agrega un {C:attention}Sello de Seguidor{} a",
                     "{C:attention}1{} carta seleccionada",

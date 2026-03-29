@@ -219,7 +219,7 @@ return {
             j_vtb_shogun_shapeshift = {
                 name = "Shogun's Shapeshift",
                 text = {
-                    "At the start of each blind,",
+                    "At the start of each {C:attention}Blind{},",
                     "transforms into a {C:attention}random Edition{}",
                     "{C:inactive}(Except {C:dark_edition}Negative{C:inactive})"
                 }
