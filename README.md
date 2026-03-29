@@ -18,20 +18,7 @@ A [Balatro](https://store.steampowered.com/app/2379780/Balatro/) mod that adds n
 
 ## Installation
 
-### Requirements
-
-- [Balatro](https://store.steampowered.com/app/2379780/Balatro/) (Steam version)
-- [Steamodded](https://github.com/Steamodded/smods) (v1.0.0-BETA or later)
-
-### Steps
-
-1. **Install Steamodded** — Follow the [Steamodded installation guide](https://github.com/Steamodded/smods/wiki).
-2. **Download VTubelatro** — Grab the latest release from this repository (or clone it).
-3. **Place the mod folder** — Copy the `vtube` folder into your Balatro Mods directory:
-   - **Windows:** `%AppData%\Balatro\Mods\`
-   - **macOS:** `~/Library/Application Support/Balatro/Mods/`
-   - **Linux:** `~/.local/share/Balatro/Mods/`
-4. **Launch Balatro** — The mod will load automatically. You should see VTubelatro listed in the Steamodded mod menu.
+See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructions.
 
 ## Languages
 
