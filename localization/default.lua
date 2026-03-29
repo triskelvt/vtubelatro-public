@@ -295,7 +295,7 @@ return {
                 }
             },
             j_vtb_pardoky_bag = {
-                name = "Pardoky's Paper Bag",
+                name = "Pardo's Paper Bag",
                 text = {
                     "If played hand is a {C:attention}Five of a Kind{},",
                     "create a random",

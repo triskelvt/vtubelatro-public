@@ -19,7 +19,7 @@ SMODS.Joker {
     soul_pos = nil,
 
     set_badges = function(self, card, badges)
-        badges[#badges + 1] = create_badge('Vtuber: Pardoky', HEX('ff006e'), G.C.white, 1.2)
+        badges[#badges + 1] = create_badge('Vtuber: Pardo', HEX('ff006e'), G.C.white, 1.2)
         badges[#badges + 1] = create_badge('Model by: Jully Eny', HEX('3a86ff'), G.C.white, 1.2)
     end,
 

@@ -295,7 +295,7 @@ return {
                 }
             },
             j_vtb_pardoky_bag = {
-                name = "O Saco de Pardoky",
+                name = "O Saco de Pardo",
                 text = {
                     "Se a mão jogada for um {C:attention}Quinteto{},",
                     "cria um Curinga",

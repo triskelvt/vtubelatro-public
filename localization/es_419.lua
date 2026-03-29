@@ -295,7 +295,7 @@ return {
                 }
             },
             j_vtb_pardoky_bag = {
-                name = "Bolsa de Pardoky",
+                name = "Bolsa de Pardo",
                 text = {
                     "Si la mano es un {C:attention}Quinteto{},",
                     "crea un",

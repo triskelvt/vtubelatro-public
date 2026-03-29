@@ -295,7 +295,7 @@ return {
                 }
             },
             j_vtb_pardoky_bag = {
-                name = "La Bolsa de Pardoky",
+                name = "La Bolsa de Pardo",
                 text = {
                     "Si la mano es un {C:attention}Quinteto{},",
                     "crea un {C:legendary}Comodín Legendario{}",
