@@ -22,6 +22,7 @@ SMODS.Joker {
         return { vars = { card.ability.extra.xmult_gain, card.ability.extra.xmult_loss, string.format("%.2f", card.ability.extra.Xmult) } }
     end,
     set_badges = function(self, card, badges)
+        badges[#badges + 1] = create_badge('Vtuber: Mono Vampie', HEX('ff006e'), G.C.white, 1.2)
         badges[#badges + 1] = create_badge('Artist: Mono Vampie', HEX('3a86ff'), G.C.white, 1.2)
     end,
     calculate = function(self, card, context)

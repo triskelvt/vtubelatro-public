@@ -63,7 +63,7 @@ See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructio
 | Mercury's Orbit        | Mercury         | sonyaao\_o         |
 | Milis' Glow            | Milis           | akizone            |
 | Mimi Saturniidae       | Mimi            | Biotari            |
-| Mono's Feast           | —               | Mono Vampie        |
+| Mono's Feast           | Mono Vampie     | Mono Vampie       |
 | Nico's Nectar          | Otra Nico       | anyr\_uok          |
 | Pardoky's Paper Bag    | Pardoky         | Jully Eny          |
 | Pierrot's Tent         | PierrotVT       | momo               |
