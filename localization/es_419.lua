@@ -63,7 +63,7 @@ return {
                 }
             },
             j_vtb_lyzui_block = {
-                name = "Bloque de Lyzui",
+                name = "Bloqueo de Lyzui",
                 text = {
                     "Manos jugadas sin descartar",
                     "otorgan {C:attention}+1 Boceto{}",
