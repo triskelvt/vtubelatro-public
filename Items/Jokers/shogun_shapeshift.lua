@@ -14,8 +14,8 @@ SMODS.Joker {
     atlas = 'shogun_shapeshift',
     blueprint_compat = false,
     eternal_compat = true,
-    unlocked = false,
-    discovered = false,
+    unlocked = true,
+    discovered = true,
     effect = nil,
     soul_pos = nil,
 

@@ -14,8 +14,8 @@ SMODS.Joker {
     atlas = 'reina_clock',
     blueprint_compat = false,
     eternal_compat = true,
-    unlocked = false,
-    discovered = false,
+    unlocked = true,
+    discovered = true,
     effect = nil,
     soul_pos = nil,
     loc_vars = function(self, info_queue, card)
