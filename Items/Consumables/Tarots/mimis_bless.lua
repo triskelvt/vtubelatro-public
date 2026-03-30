@@ -16,7 +16,8 @@ SMODS.Consumable {
     config = { max_highlighted = 2 },
 
     loc_vars = function(self, info_queue, card)
-        info_queue[#info_queue + 1] = G.P_SEALS.vtb_mimi_seal
+        info_queue[#info_queue + 1] = G.P_SEALS.vtb_mimi
+        return { vars = {} }
     end,
 
     use = function(self, card, area, copier)
@@ -30,7 +31,7 @@ SMODS.Consumable {
             func = function()
                 for i = 1, #targeted_cards do
                     local highlighted_card = targeted_cards[i]
-                    highlighted_card:set_seal('vtb_mimi_seal', nil, true)
+                    highlighted_card:set_seal('vtb_mimi', nil, true)
                     highlighted_card:juice_up(0.3, 0.5)
                 end
                 G.hand:unhighlight_all()

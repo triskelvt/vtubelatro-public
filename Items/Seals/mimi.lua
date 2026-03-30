@@ -6,7 +6,7 @@ SMODS.Atlas({
 })
 
 SMODS.Seal {
-    key = 'mimi_seal',
+    key = 'mimi',
     atlas = 'mimi_seal',
     pos = { x = 0, y = 0 },
     config = { extra = { money = 1, chance = 4 } },

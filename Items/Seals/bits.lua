@@ -6,15 +6,14 @@ SMODS.Atlas({
 })
 
 SMODS.Seal {
-    key = "bits_seal",
+    key = "bits",
     atlas = "bits_seal",
     pos = { x = 0, y = 0 },
     config = { extra = { chips = 5, mult = 1, dollars = 1 } },
     badge_colour = HEX('c88bee'),
 
     loc_vars = function(self, info_queue, card)
-        return { vars = { self.config.extra.chips, self.config.extra.mult, self.config.extra.dollars } },
-            { key = self.key, set = 'Seal' }
+        return { vars = { self.config.extra.chips, self.config.extra.mult, self.config.extra.dollars } }
     end,
 
     calculate = function(self, card, context)

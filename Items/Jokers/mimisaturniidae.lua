@@ -23,7 +23,7 @@ SMODS.Joker {
         local count = 0
         if G.playing_cards then
             for _, v in pairs(G.playing_cards) do
-                if v.seal == 'vtb_mimi_seal' then count = count + 1 end
+                if v.seal == 'vtb_mimi' then count = count + 1 end
             end
         end
         local gain = self.config.extra.x_mult_gain
@@ -39,7 +39,7 @@ SMODS.Joker {
         if context.joker_main then
             local count = 0
             for _, v in pairs(G.playing_cards) do
-                if v.seal == 'vtb_mimi_seal' then count = count + 1 end
+                if v.seal == 'vtb_mimi' then count = count + 1 end
             end
 
             local total_x_mult = 1 + (count * self.config.extra.x_mult_gain)

@@ -6,7 +6,7 @@ SMODS.Atlas({
 })
 
 SMODS.Seal {
-    key = 'follower_seal',
+    key = 'follower',
     atlas = 'follower_seal',
     pos = { x = 0, y = 0 },
     config = { extra = { chips = 10 } },
