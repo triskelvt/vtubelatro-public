@@ -26,7 +26,7 @@ In Balatro Mod Manager, click on **Installed Mods**, then click **Open Mods Fold
 
 ### 4. Place VTubelatro
 
-Download [VTubelatro](https://github.com/triskelvt/vtubelatro-public/releases/tag/release-0.0.2) (.zip) and extract its content into the mods folder that was opened in the previous step.
+Download [VTubelatro](https://github.com/triskelvt/vtubelatro-public/releases/tag/0.0.3) (.zip) and extract its content into the mods folder that was opened in the previous step.
 
 ![ModDirectoryPaste](../images/ModDirectoryPaste.png)
 
